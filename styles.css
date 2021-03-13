@@ -10,7 +10,7 @@ ul.nav {
     margin: 50px;
     padding: 0;
     overflow: hidden;
-    background-color: #3242bd;
+    background-color: #2d3aa1;
   }
  
 li.nav {
@@ -26,11 +26,11 @@ li.nav a.nav {
   }
 
 li a.nav:hover {
-    background-color: #333545;
+    background-color: #1a2044;
   }
 
 .ActualPage{
-    background-color: #333545;
+    background-color: #1a2044;
     float: left;
     display: block;
     padding: 14px 16px;  
@@ -40,10 +40,35 @@ li a.nav:hover {
     color: mintcream;
     text-align: center;
     text-decoration: none;
+}
+/* Quiz dans le menu de navigation */
+li.Quiz a.Quiz{
+    float: right !important;
+    display: block;
+    color: mintcream;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.Quiz:hover {
+    background-color: #1a2044;
   }
+.ActualPageQ{
+    background-color: #1a2044;
+    float: right;
+    display: block;
+    padding: 14px 16px;  
+  }
+  
+.ActualLinkQ{
+    color: mintcream;
+    text-align: center;
+    text-decoration: none;
+}
 /* Titre de la page */
 h1{
-    color: grey;
+    color: rgba(39, 37, 59, 0.801);
     text-align: center;
     font-size: 100px;    
     display: block;
