@@ -42,7 +42,7 @@ li a.nav:hover {
     text-decoration: none;
   }
 /* Titre de la page */
-h1{
+h1.Title{
     color: grey;
     text-align: center;
     font-size: 100px;    
