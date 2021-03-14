@@ -25,9 +25,13 @@ li.nav a.nav {
     text-decoration: none;
   }
 
+/* Style lorsque l'on passe au dessus */
+
 li a.nav:hover {
     background-color: #1a2044;
   }
+
+/* Style de la page actuel */
 
 .ActualPage{
     background-color: #1a2044;
@@ -41,7 +45,7 @@ li a.nav:hover {
     text-align: center;
     text-decoration: none;
 }
-/* Quiz dans le menu de navigation */
+/* Bouton Quiz dans le menu de navigation */
 li.Quiz a.Quiz{
     float: right !important;
     display: block;
@@ -54,6 +58,9 @@ li.Quiz a.Quiz{
 li a.Quiz:hover {
     background-color: #1a2044;
   }
+
+  /* Style du bouton du quiz séléctioné */
+
 .ActualPageQ{
     background-color: #1a2044;
     float: right;
