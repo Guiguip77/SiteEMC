@@ -1,53 +1,85 @@
 /* En-tete */
 header{
-    background-image: url('images/Elysée.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  background-image: url('images/Elysée.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* Menu de navigation */
 ul.nav {
-    list-style-type: none;
-    margin: 50px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #3242bd;
-  }
- 
+  list-style-type: none;
+  margin: 50px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2d3aa1;
+}
+
 li.nav {
-    float: left;
-  } 
-  
+  float: left;
+} 
+
 li.nav a.nav {
-    display: block;
-    color: mintcream;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+  display: block;
+  color: mintcream;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Style lorsque l'on passe au dessus */
 
 li a.nav:hover {
-    background-color: #333545;
-  }
+  background-color: #1a2044;
+}
+
+/* Style de la page actuel */
 
 .ActualPage{
-    background-color: #333545;
-    float: left;
-    display: block;
-    padding: 14px 16px;  
-  }
-  
+  background-color: #1a2044;
+  float: left;
+  display: block;
+  padding: 14px 16px;  
+}
+
 .ActualLink{
-    color: mintcream;
-    text-align: center;
-    text-decoration: none;
-  }
+  color: mintcream;
+  text-align: center;
+  text-decoration: none;
+}
+/* Bouton Quiz dans le menu de navigation */
+li.Quiz a.Quiz{
+  float: right !important;
+  display: block;
+  color: mintcream;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a.Quiz:hover {
+  background-color: #1a2044;
+}
+
+/* Style du bouton du quiz séléctioné */
+
+.ActualPageQ{
+  background-color: #1a2044;
+  float: right;
+  display: block;
+  padding: 14px 16px;  
+}
+
+.ActualLinkQ{
+  color: mintcream;
+  text-align: center;
+  text-decoration: none;
+}
 /* Titre de la page */
-h1.Title{
-    color: grey;
-    text-align: center;
-    font-size: 100px;    
-    display: block;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+h1{
+  color: rgba(39, 37, 59, 0.801);
+  text-align: center;
+  font-size: 100px;    
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
