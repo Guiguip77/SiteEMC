@@ -88,3 +88,29 @@ h1.title{
 footer{
 background-color: rgb(29, 18, 93);
 }
+
+/* Styles du cadre des question */
+
+.quest{
+  border: solid;
+  margin: 10px,10px,10px,10px;
+  padding: 10px,10px,10px,10px;
+  text-align: center;
+}
+
+/* Styles des boutons */
+button.rep{
+  font-size: 450%;
+  font-family: Helvetica;
+  padding: 5px,5px,5px,5px;
+  background-color: mintcream;
+}
+button.rep:hover{
+   background-color: cadetblue;
+}
+
+/* Liste à puces */
+
+li.rep{
+  list-style: none;
+}
