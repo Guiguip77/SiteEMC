@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="Images/RepubliqueFrancaise.png">
     <title>Site EMC - Quiz</title>
 </head>
+
 <body>
+    <script type = "text/javascript" src="script.js"></script>
     <header>
         <h1 class="title">Les droits sociaux</h1>
         <ul class="nav">
@@ -15,9 +18,32 @@
             <li class="nav"><a href="CNR.html" class="nav">Les réformes du CNR</a></li>
             <li class="nav"><a href="evolution.html" class="nav">L'évolution de ces droits</a></li>
             <li class="ActualPageQ"><a href="quiz.html" class="ActualLinkQ">Quiz</a></li>
-          </ul>
+        </ul>
+
     </header>
+    
+    <div class="quest">
+        <h1 id="question"> Question</h1>
+    </div>   
+    <div class="reponse">
+        <ul>
+            <li class="rep"><button class="rep" id="Rep1" onclick="Réponse(1)">Réponse 1</button></li>
+            <li class="rep"><button class="rep" id="Rep2" onclick="Réponse(2)">Réponse 2</button></li>
+            <li class="rep"><button class="rep" id="Rep3" onclick="Réponse(3)">Réponse 3</button></li>
+            <li class="rep"><button class="rep" id="Rep4" onclick="Réponse(4)">Réponse 4</button></li>
+        </ul>
+        
+        
+        
+        
+    </div>
+    <script> window.onload = AddQuestion(0) ;{ startcountdown(); } </script>
+    <script> window.onload = Addrep1(0) ;{ startcountdown(); } </script>
+    <script> window.onload = Addrep2(0) ;{ startcountdown(); } </script>
+    <script> window.onload = Addrep3(0) ;{ startcountdown(); } </script>
+    <script> window.onload = Addrep4(0) ;{ startcountdown(); } </script>
     <footer>
     </footer>
 </body>
+
 </html>
